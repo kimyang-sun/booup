@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/*  폰트 적용 */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400&display=swap&subset=korean');
+
+html, body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 노말라이즈 */
+html, body, h1, h2, h3, h4, h5, h6, div, p, blockquote, pre, code, address, ul, ol, li, menu, nav, section, article, aside, dl, dt, dd, table, thead, tbody, tfoot, label, caption, th, td, form, fieldset, legend, hr, input, button, textarea, object, figure, figcaption {
+    margin:0;
+    padding:0;
+}
+
+main, header, section, nav, footer, aside, article, figure {
+    display:block;
+}
+
+html{
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+ul, ol, li {
+    list-style:none;
+}
+
+h1, h2, h3, h4, strong, th {
+    font-weight:normal;
+    font-family:inherit;
+    color:inherit;
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+    outline:none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 라이브러리 */
+.con {
+    margin:0 auto;
+}
+
+.img-box > img {
+    width:100%;
+    height: auto;
+    display:block;
+}
+
+.block {
+    display:block;
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.font-size-0 {
+    font-size:0;
+}
+
+.table {
+    display:table;
+}
+
+.table-cell {
+    display:table-cell;
+}
+
+.flex-box {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+input, button, select, fieldset, textarea {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:0;
+    background-color:transparent;
+    outline: none !important;
+}
+
+/* IE10 이상에서 input box 에 추가된 지우기 버튼 제거 */
+input::-ms-clear {
+    display: none;
+}
+
+/* input type number 에서 화살표 제거 */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* IE 에서 Select box 화살표 제거 */
+select::-ms-expand {
+    display: none;
+}
+
+.blind, legend {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    font-size: 12px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+button {
+    cursor: pointer;
+}

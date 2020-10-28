@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="" />
+    <meta name="copyright" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta property="og:title" content="" />
+
+    <title>부업몬</title>
+
+    <!-- XEIcon 폰트 불러오기 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- 부트스트랩 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+
+  <body>
+    <!-- 상단 헤더 {-->
+    <header>
+      <div class="header-inner con only-991-up">
+        <div class="header-top flex-box">
+          <!-- 헤더 로고 -->
+          <div class="header-logo"><a href="./index.html">BOOUP몬</a></div>
+
+          <!-- 헤더 유틸리티 비로그인
+          <ul class="header-util flex-box">
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">고객지원</a></li>
+              <li><a href="#">장바구니</a></li>
+          </ul>
+          -->
+
+          <ul class="header-util flex-box">
+            <li><a href="#">마이부업몬</a></li>
+            <li>
+              <a href="#">메세지 <span class="count">0</span></a>
+            </li>
+            <li><a href="#">고객지원</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li>
+              <a href="#"
+                ><span class="blind">프로필 사진</span
+                ><span class="img-box"
+                  ><img
+                    src="./images/profile_img.png"
+                    alt="프로필 사진" /></span
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 헤더 gnb  -->
+        <nav class="header-gnb">
+          <ul class="flex-box">
+            <li>
+              <a href="#"><span>부업명</span></a>
+              <ul class="gnb-depth">
+                <li><a href="#">아지트샵</a></li>
+                <li><a href="#">라이프톡</a></li>
+                <li><a href="#">애드펌킨</a></li>
+                <li><a href="#">후기톡</a></li>
+                <li><a href="#">샵샵</a></li>
+                <li><a href="#">더바더</a></li>
+                <li><a href="#">리뉴메디</a></li>
+                <li><a href="#">이셀멈</a></li>
+                <li><a href="#">버숑</a></li>
+                <li><a href="#">10만원의 기적</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>부업안내</span></a>
+              <ul class="gnb-depth">
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>TOP멘토</span></a>
+              <ul class="gnb-depth">
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>금주인기멘토</span></a>
+              <ul class="gnb-depth">
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>추천멘토</span></a>
+              <ul class="gnb-depth">
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>멘토등록</span></a>
+              <ul class="gnb-depth">
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>디자이너등록</span></a>
+              <ul class="gnb-depth">
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+                <li><a href="#">2차 메뉴</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- 모바일 헤더 -->
+      <div class="m-header only-991-down">
+        <!-- 모바일 헤더 로고 -->
+        <div class="m-header-title"><a href="./index.html">BOOUP몬</a></div>
+
+        <!-- 모바일 사이드바 버튼 -->
+        <button type="button" class="m-side-btn">
+          <i class="xi-bars block"></i>
+        </button>
+
+        <!-- 모바일 사이드바 -->
+        <div class="m-side-bar">
+          <ul class="m-header-util flex-box">
+            <li>
+              <a href="#"
+                ><span class="blind">프로필 사진</span
+                ><span class="img-box"
+                  ><img
+                    src="./images/profile_img.png"
+                    alt="프로필 사진" /></span
+              ></a>
+            </li>
+            <li><a href="#">마이부업몬</a></li>
+            <li>
+              <a href="#">메세지 <span class="count">0</span></a>
+            </li>
+            <li><a href="#">고객지원</a></li>
+            <li><a href="#">장바구니</a></li>
+          </ul>
+          <nav class="m-side-gnb">
+            <ul>
+              <li>
+                <a href="#"><span>부업명</span><i class="xi-angle-down"></i></a>
+                <ul class="gnb-depth">
+                  <li><a href="#">아지트샵</a></li>
+                  <li><a href="#">라이프톡</a></li>
+                  <li><a href="#">애드펌킨</a></li>
+                  <li><a href="#">후기톡</a></li>
+                  <li><a href="#">샵샵</a></li>
+                  <li><a href="#">더바더</a></li>
+                  <li><a href="#">리뉴메디</a></li>
+                  <li><a href="#">이셀멈</a></li>
+                  <li><a href="#">버숑</a></li>
+                  <li><a href="#">10만원의 기적</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"
+                  ><span>부업안내</span><i class="xi-angle-down"></i
+                ></a>
+                <ul class="gnb-depth">
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"
+                  ><span>TOP멘토</span><i class="xi-angle-down"></i
+                ></a>
+                <ul class="gnb-depth">
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"
+                  ><span>금주인기멘토</span><i class="xi-angle-down"></i
+                ></a>
+                <ul class="gnb-depth">
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"
+                  ><span>추천멘토</span><i class="xi-angle-down"></i
+                ></a>
+                <ul class="gnb-depth">
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"
+                  ><span>멘토등록</span><i class="xi-angle-down"></i
+                ></a>
+                <ul class="gnb-depth">
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"
+                  ><span>디자이너등록</span><i class="xi-angle-down"></i
+                ></a>
+                <ul class="gnb-depth">
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                  <li><a href="#">2차 메뉴</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 모바일 헤더 검색버튼 -->
+        <button type="button" class="m-header-search-btn">
+          <i class="xi-search block"></i>
+        </button>
+
+        <!-- 모바일 헤더 검색창 -->
+        <div class="m-header-search-box">
+          <div class="search-logo">BOOUP몬</div>
+          <button type="button" class="search-close-btn">
+            <i class="xi-close block"></i>
+          </button>
+          <form action="#" class="header-search">
+            <fieldset>
+              <label for="header_search_input" class="blind">검색</label>
+              <input
+                type="text"
+                name="search"
+                id="header_search_input"
+                placeholder="검색어를 입력해주세요"
+              />
+              <button type="submit" class="header-search-btn">
+                <span class="blind">검색버튼</span
+                ><i class="xi-search block"></i>
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!--} 상단 헤더 끝 -->
+
+    <!-- 모바일 하단 메뉴 {-->
+    <nav class="mobile-menu only-991-down">
+      <ul class="flex-box">
+        <li>
+          <a href="#" class="active">
+            <i class="xi-home-o"></i>
+            <span class="menu-title">홈</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="xi-list-square"></i>
+            <span class="menu-title">카테고리</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="xi-message-o"></i>
+            <span class="menu-title">메세지</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="xi-user-o"></i>
+            <span class="menu-title">마이부업몬</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!--} 모바일 하단 메뉴 끝 -->
+
+    <!-- 메인 컨텐츠 {-->
+    <main role="main">
+      <!-- 상단 메인 배너  {-->
+      <div class="main-banner">
+        <div class="main-banner-con con">
+          <h1>각 부업의 전문가들의<br />멘토링을 받으세요!</h1>
+
+          <!-- 메인 배너 검색창 -->
+          <form action="#" class="main-search">
+            <fieldset>
+              <label for="main_search_input" class="blind">검색</label>
+              <input
+                type="text"
+                name="search"
+                id="main_search_input"
+                placeholder="검색어를 입력해주세요"
+              />
+              <button type="submit" class="main-search-btn">
+                <span class="blind">검색버튼</span
+                ><i class="xi-search block"></i>
+              </button>
+            </fieldset>
+          </form>
+
+          <!-- 부업몬 현황 정리 -->
+          <ul class="main-arrange flex-box">
+            <li class="main-mentor">
+              <img src="images/main_ico_1.png" alt="등록된 멘토" />
+              <p>
+                <span class="block">등록된 멘토</span>
+                <span class="count">000</span>명
+              </p>
+            </li>
+            <li class="main-side-job">
+              <img src="images/main_ico_2.png" alt="등록된 부업" />
+              <p>
+                <span class="block">등록된 부업</span>
+                <span class="count">000</span>개
+              </p>
+            </li>
+            <li class="main-member">
+              <img src="images/main_ico_3.png" alt="현재회원" />
+              <p>
+                <span class="block">현재회원</span>
+                <span class="count">000</span>명
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--} 상단 메인 배너 끝 -->
+
+      <!-- 퀵 메뉴 {-->
+      <nav class="quick-nav con">
+        <ul class="flex-box">
+          <li>
+            <a href="#">
+              <img src="images/main_ico_1.png" alt="" />
+              <span>아이콘</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/main_ico_1.png" alt="" />
+              <span>아이콘</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/main_ico_1.png" alt="" />
+              <span>아이콘</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/main_ico_1.png" alt="" />
+              <span>아이콘</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/main_ico_1.png" alt="" />
+              <span>아이콘</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/main_ico_1.png" alt="" />
+              <span>아이콘</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/main_ico_1.png" alt="" />
+              <span>아이콘</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!--} 퀵 메뉴 끝 -->
+
+      <!-- 이달의 추천멘토 {-->
+      <section class="main-section">
+        <div class="con">
+          <h2>이달의 추천멘토</h2>
+          <!-- slick 슬라이더 -->
+          <div class="mentor-slider">
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--} 이달의 추천멘토 끝 -->
+
+      <!-- 이달의 추천멘토 {-->
+      <section class="main-section">
+        <div class="con">
+          <h2>이달의 인기멘토</h2>
+          <!-- slick 슬라이더 -->
+          <div class="mentor-slider">
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="mentor-list">
+              <a href="#" class="block">
+                <div class="img-box">
+                  <img src="images/mentor_1.jpg" alt="멘토 사진" />
+                </div>
+                <div class="mentor-information">
+                  <span class="mentor-img img-box"
+                    ><img src="images/profile_img.png" alt="멘토 프로필 사진"
+                  /></span>
+                  <span class="mentor-description"
+                    >고객의 니즈에 맞는 Fit하고 애자일한 마케팅 솔루션을
+                    제공드립니다.</span
+                  >
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--} 이달의 추천멘토 끝 -->
+
+      <!-- 중앙 컨텐츠 배너 {-->
+      <div class="mid-banner">
+        <div class="con">
+          <h2>배너 광고주 모집중</h2>
+          <p class="lead">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to.
+          </p>
+          <a class="btn-primary" href="#" role="button">자세히보기</a>
+        </div>
+      </div>
+      <!--} 중앙 컨텐츠 배너 끝 -->
+
+      <!-- 멘토 랭킹 {-->
+      <article class="ranking-article">
+        <div class="con">
+          <h2>멘토 <b>RANKING TOP3</b></h2>
+          <ul class="row">
+            <li class="col-md-6">
+              <a href="#" class="clearfix">
+                <div
+                  class="ranking-thumbnail float-left"
+                  style="background-image: url('images/thumbnail_1.jpg')"
+                >
+                  <span class="blind">멘토 랭킹 썸네일 사진</span>
+                  <b class="rank-label">TOP1</b>
+                </div>
+                <div class="ranking-information float-left">
+                  <div class="ranking-profile img-box">
+                    <img src="images/profile_img.png" alt="멘토 프로필 사진" />
+                  </div>
+                  <div class="ranking-description">
+                    <span class="name">애드펌킨</span>
+                    <span class="substance"
+                      >꼼꼼한 멘토링 / 부가 수익 전문 / 본사 후기 주인공</span
+                    >
+                    <span class="count">조회수 75회</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-md-6">
+              <div>
+                <a href="#" class="clearfix">
+                  <div
+                    class="ranking-thumbnail float-left"
+                    style="background-image: url('images/thumbnail_1.jpg')"
+                  >
+                    <span class="blind">멘토 랭킹 썸네일 사진</span>
+                    <b class="rank-label">TOP2</b>
+                  </div>
+                  <div class="ranking-information float-left">
+                    <div class="ranking-profile img-box">
+                      <img
+                        src="images/profile_img.png"
+                        alt="멘토 프로필 사진"
+                      />
+                    </div>
+                    <div class="ranking-description">
+                      <span class="name">애드펌킨</span>
+                      <span class="substance"
+                        >꼼꼼한 멘토링 / 부가 수익 전문 / 본사 후기 주인공</span
+                      >
+                      <span class="count">조회수 75회</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="clearfix">
+                  <div
+                    class="ranking-thumbnail float-left"
+                    style="background-image: url('images/thumbnail_1.jpg')"
+                  >
+                    <span class="blind">멘토 랭킹 썸네일 사진</span>
+                    <b class="rank-label">TOP3</b>
+                  </div>
+                  <div class="ranking-information float-left">
+                    <div class="ranking-profile img-box">
+                      <img
+                        src="images/profile_img.png"
+                        alt="멘토 프로필 사진"
+                      />
+                    </div>
+                    <div class="ranking-description">
+                      <span class="name">애드펌킨</span>
+                      <span class="substance"
+                        >꼼꼼한 멘토링 / 부가 수익 전문 / 본사 후기 주인공</span
+                      >
+                      <span class="count">조회수 75회</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <!--} 멘토 랭킹 끝 -->
+
+      <!-- 광고 배너 {-->
+      <div class="line-banner con img-box">
+        <span class="blind">3개월 이상 등록 시 15% 할인 적용</span>
+        <img
+          src="images/line_bn_1.jpg"
+          alt="3개월 이상 등록 시 15% 할인 적용"
+          class="only-pc"
+        />
+        <img
+          src="images/line_bn_1_m.jpg"
+          alt="3개월 이상 등록 시 15% 할인 적용"
+          class="only-mobile"
+        />
+      </div>
+      <!--} 광고 배너 끝 -->
+
+      <!-- 부업몬 추천멘토 {-->
+      <section class="main-section">
+        <div class="con">
+          <h2>
+            부업몬 추천멘토
+            <span class="only-pc">추천광고 유료옵션을 적용한 재능입니다.</span>
+          </h2>
+          <ul class="row">
+            <li class="col-lg-3 col-sm-6">
+              <a href="#">
+                <div
+                  class="recommend-thumbnail"
+                  style="background-image: url('images/thumbnail_1.jpg')"
+                >
+                  <span class="blind">추천멘토 썸네일 사진</span>
+                </div>
+                <div class="recommend-information">
+                  <div class="recommend-profile img-box">
+                    <img src="images/profile_img.png" alt="멘토 프로필 사진" />
+                  </div>
+                  <div class="recommend-description">
+                    <span class="name">꼼꼼한 멘토링 / 부가수익 전문</span>
+                    <span class="substance"
+                      >꼼꼼한 멘토링 / 부가수익 전문 / 꼼꼼한 멘토링 / 부가수익
+                      전문 / 꼼꼼한 멘토링 / 부가수익 전문</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <a href="#">
+                <div
+                  class="recommend-thumbnail"
+                  style="background-image: url('images/thumbnail_1.jpg')"
+                >
+                  <span class="blind">추천멘토 썸네일 사진</span>
+                </div>
+                <div class="recommend-information">
+                  <div class="recommend-profile img-box">
+                    <img src="images/profile_img.png" alt="멘토 프로필 사진" />
+                  </div>
+                  <div class="recommend-description">
+                    <span class="name">꼼꼼한 멘토링 / 부가수익 전문</span>
+                    <span class="substance"
+                      >꼼꼼한 멘토링 / 부가수익 전문 / 꼼꼼한 멘토링 / 부가수익
+                      전문 / 꼼꼼한 멘토링 / 부가수익 전문</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <a href="#">
+                <div
+                  class="recommend-thumbnail"
+                  style="background-image: url('images/thumbnail_1.jpg')"
+                >
+                  <span class="blind">추천멘토 썸네일 사진</span>
+                </div>
+                <div class="recommend-information">
+                  <div class="recommend-profile img-box">
+                    <img src="images/profile_img.png" alt="멘토 프로필 사진" />
+                  </div>
+                  <div class="recommend-description">
+                    <span class="name">꼼꼼한 멘토링 / 부가수익 전문</span>
+                    <span class="substance"
+                      >꼼꼼한 멘토링 / 부가수익 전문 / 꼼꼼한 멘토링 / 부가수익
+                      전문 / 꼼꼼한 멘토링 / 부가수익 전문</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <a href="#">
+                <div
+                  class="recommend-thumbnail"
+                  style="background-image: url('images/thumbnail_1.jpg')"
+                >
+                  <span class="blind">추천멘토 썸네일 사진</span>
+                </div>
+                <div class="recommend-information">
+                  <div class="recommend-profile img-box">
+                    <img src="images/profile_img.png" alt="멘토 프로필 사진" />
+                  </div>
+                  <div class="recommend-description">
+                    <span class="name">꼼꼼한 멘토링 / 부가수익 전문</span>
+                    <span class="substance"
+                      >꼼꼼한 멘토링 / 부가수익 전문 / 꼼꼼한 멘토링 / 부가수익
+                      전문 / 꼼꼼한 멘토링 / 부가수익 전문</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <a href="#">
+                <div
+                  class="recommend-thumbnail"
+                  style="background-image: url('images/thumbnail_1.jpg')"
+                >
+                  <span class="blind">추천멘토 썸네일 사진</span>
+                </div>
+                <div class="recommend-information">
+                  <div class="recommend-profile img-box">
+                    <img src="images/profile_img.png" alt="멘토 프로필 사진" />
+                  </div>
+                  <div class="recommend-description">
+                    <span class="name">꼼꼼한 멘토링 / 부가수익 전문</span>
+                    <span class="substance"
+                      >꼼꼼한 멘토링 / 부가수익 전문 / 꼼꼼한 멘토링 / 부가수익
+                      전문 / 꼼꼼한 멘토링 / 부가수익 전문</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <a href="#">
+                <div
+                  class="recommend-thumbnail"
+                  style="background-image: url('images/thumbnail_1.jpg')"
+                >
+                  <span class="blind">추천멘토 썸네일 사진</span>
+                </div>
+                <div class="recommend-information">
+                  <div class="recommend-profile img-box">
+                    <img src="images/profile_img.png" alt="멘토 프로필 사진" />
+                  </div>
+                  <div class="recommend-description">
+                    <span class="name">꼼꼼한 멘토링 / 부가수익 전문</span>
+                    <span class="substance"
+                      >꼼꼼한 멘토링 / 부가수익 전문 / 꼼꼼한 멘토링 / 부가수익
+                      전문 / 꼼꼼한 멘토링 / 부가수익 전문</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <a href="#">
+                <div
+                  class="recommend-thumbnail"
+                  style="background-image: url('images/thumbnail_1.jpg')"
+                >
+                  <span class="blind">추천멘토 썸네일 사진</span>
+                </div>
+                <div class="recommend-information">
+                  <div class="recommend-profile img-box">
+                    <img src="images/profile_img.png" alt="멘토 프로필 사진" />
+                  </div>
+                  <div class="recommend-description">
+                    <span class="name">꼼꼼한 멘토링 / 부가수익 전문</span>
+                    <span class="substance"
+                      >꼼꼼한 멘토링 / 부가수익 전문 / 꼼꼼한 멘토링 / 부가수익
+                      전문 / 꼼꼼한 멘토링 / 부가수익 전문</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <a href="#">
+                <div
+                  class="recommend-thumbnail"
+                  style="background-image: url('images/thumbnail_1.jpg')"
+                >
+                  <span class="blind">추천멘토 썸네일 사진</span>
+                </div>
+                <div class="recommend-information">
+                  <div class="recommend-profile img-box">
+                    <img src="images/profile_img.png" alt="멘토 프로필 사진" />
+                  </div>
+                  <div class="recommend-description">
+                    <span class="name">꼼꼼한 멘토링 / 부가수익 전문</span>
+                    <span class="substance"
+                      >꼼꼼한 멘토링 / 부가수익 전문 / 꼼꼼한 멘토링 / 부가수익
+                      전문 / 꼼꼼한 멘토링 / 부가수익 전문</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--} 부업몬 추천멘토 끝 -->
+    </main>
+    <!--} 메인 컨텐츠 끝 -->
+
+    <!-- 하단 푸터 {-->
+    <footer>
+      <div class="footer-inner">
+        <div class="con">
+          <div class="footer-information">
+            <span>부업몬 사업자 정보</span>
+            <p>
+              상호명 : 셀디마케팅
+              <span class="devide">|</span>
+              대표자 : 셀디
+              <span class="devide">|</span>
+              주소 : 충청남도 천안시 서북구 불당동 1491번지
+              <span class="devide">|</span>
+              대표번호 : 0507.131.5641
+              <span class="devide">|</span>
+              이메일 : kinder_roll@naver.com
+            </p>
+            <span class="copyright"
+              >COPYRIGHT(C) SELDI.CO.KR ALL RIGHTS RESERVED.</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--} 하단 푸터 끝  -->
+
+    <script src="assets/js/common.js" charset="UTF-8"></script>
+    <script>
+      /* 멘토 슬라이더 */
+      $(".mentor-slider").slick({
+        slidesToShow: 3,
+        draggable: true,
+        speed: 1000,
+        prevArrow: '<button type="button" class="arrow-prev"></button>',
+        nextArrow: '<button type="button" class="arrow-next"></button>',
+        touchThreshold: 1000,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              arrows: false,
+              speed: 500,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
