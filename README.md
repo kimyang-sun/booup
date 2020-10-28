@@ -12,7 +12,7 @@
 
 ## 링크
 
-- [https://kimyang-sun.github.io/doctorpage/](https://kimyang-sun.github.io/doctorpage/)
+- [https://kimyang-sun.github.io/booup/](https://kimyang-sun.github.io/booup/)
 
 ---
 
